@@ -1,0 +1,49 @@
+{
+  "name": "juxt-theme",
+  "displayName": "juxt Theme",
+  "description": "Quiet grayscale themes for VS Code in the juxt.ui design language. Green marks state.",
+  "version": "0.1.0",
+  "publisher": "Julius3722",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juliuss3722/juxt.theme.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "grayscale",
+    "minimal",
+    "juxt"
+  ],
+  "galleryBanner": {
+    "color": "#09090b",
+    "theme": "dark"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "package": "node build.mjs && npx @vscode/vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Juxt Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/juxt-dark-color-theme.json"
+      },
+      {
+        "label": "Juxt Light",
+        "uiTheme": "vs",
+        "path": "./themes/juxt-light-color-theme.json"
+      }
+    ]
+  }
+}

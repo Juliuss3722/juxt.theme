@@ -1,0 +1,4 @@
+build.mjs
+.vscode/**
+.gitignore
+*.vsix
