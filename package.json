@@ -2,7 +2,7 @@
   "name": "juxt-theme",
   "displayName": "juxt Theme",
   "description": "Quiet grayscale themes for VS Code in the juxt.ui design language. Green marks state.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "Julius3722",
   "license": "MIT",
   "icon": "icon.png",

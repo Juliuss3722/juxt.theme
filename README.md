@@ -2,10 +2,13 @@
 
 Quiet themes for VS Code in the [juxt.ui](https://juliuss3722.github.io/juxt-library/) design language.
 
+![alt text](https://i.imgur.com/E7qIoJJ.png)
+
 The interface is grayscale, and the green `#079D6B` is kept for state: focus, the cursor, the active tab, selections, additions. Primary buttons use ink, not green. Code follows the juxt.ui docs highlighter: grayscale structure, green strings, amber constants, and types and components picked out in full contrast.
 
-- **Juxt Dark**: `#09090b` background, zinc neutrals
-- **Juxt Light**: `#fcfcfc` background, zinc neutrals
+* **Juxt Dark**: `#09090b` background, zinc neutrals
+
+* **Juxt Light**: `#fcfcfc` background, zinc neutrals
 
 ## Recommended settings
 
