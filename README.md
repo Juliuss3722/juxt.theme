@@ -1,4 +1,4 @@
-# juxt Theme
+#[ juxt Theme](https://vscodethemes.com/e/Julius3722.juxt-theme/juxt-light)
 
 Quiet themes for VS Code in the [juxt.ui](https://juliuss3722.github.io/juxt-library/) design language.
 
